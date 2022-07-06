@@ -20,7 +20,7 @@
                 <h4>Axel MAURICE</h4>
                 <h1>APPRENTI <br> DEVELOPPEUR</h1>
                 <div class="btn">
-                    <a href="#">CONTACT</a>
+                    <a href="#contact" style="scroll-behavior: smooth;">CONTACT</a>
                 </div>
                 <ul>
                     <li><a href="https://fr.linkedin.com/in/axel-maurice-698a381a1?trk=people-guest_people_search-card" target="_blank"><img src="/image/linkedin.png" alt=""></a></li>
@@ -37,13 +37,13 @@
             <h2>QUI SUIS-JE</h2>
         </div>
         <div class="article1">
-            <img src="./image/photo.webp" alt="">
+            <img src="./image/photo.png" alt="">
             <div class="texte">
                 <p>Je m'appel Axel, je suis actuellement en formation developpeur web au CIFOR de Roanne.<br />
                     J'ai un BEP et un BAC pro Technicien d'usinage.<br />
                     En dehors de tout ça, je suis passionné par le volly-ball, la bande dessinée japonaise et les FPS</p>
                 <div class="btn">
-                    <a href="#">MON CV</a>
+                    <a href="./image/cv.pdf">MON CV</a>
                 </div>
             </div>
         </div>
@@ -55,11 +55,11 @@
         </div>
         <div class="cardcontainer">
             <div class="card">
-                <a href="./projets/drum_pad/index.html"><img src="./image/drumpad.png" alt=""><span>drum Pad</span></a>
+                <a href="./projets/drum_pad/index.html"><img src="./image/drumpad.png" alt=""><span>Drum Pad</span></a>
             </div>
 
             <div class="card">
-                <a href="./projets/audio_player/index.php"><img src="./image/drumpad.png" alt=""><span>drum Pad</span></a>
+                <a href="./projets/audio_player/index.php"><img src="./image/audioplayer.png" alt=""><span>Audio Player</span></a>
             </div>
         </div>
 
@@ -67,9 +67,9 @@
 
     <footer>
         <!---------------------- contact ---------------------->
-        <div class="titrecontact">
-            <h3>Quelques créations</h3>
-            <h2>PORTFOLIO</h2>
+        <div id="contact" class="titrecontact">
+            <h3>Contact</h3>
+            <h2>Hésitez pas à envoyer un mail</h2>
         </div>
         <div class="formcontainer">
             <form onsubmit="sendEmail(); reset(); return false;">

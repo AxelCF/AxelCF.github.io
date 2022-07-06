@@ -13,7 +13,7 @@ fetch('../audio_player/ASSETS/PHP/PROCESS/recup_playlist.php').then(function (re
 <div class="case">
     <img src="./ASSETS/COVER/${cover.image}">
 </div>
-    <p>Un mix pas infini parce que il ne faut pas déconner</p>
+    <p>Mix de 15 musiques différentes</p>
 </div>`;
 
 
