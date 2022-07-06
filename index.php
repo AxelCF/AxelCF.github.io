@@ -55,11 +55,11 @@
         </div>
         <div class="cardcontainer">
             <div class="card">
-                <a href="./projets/drum_pad/index.html"><img src="./image/drumpad.png" alt=""><span>Drum Pad</span></a>
+                <a href="./projets/drum_pad/index.html" target="_blank"><img src="./image/drumpad.png" alt=""><span>Drum Pad</span></a>
             </div>
 
             <div class="card">
-                <a href="./projets/audio_player/index.php"><img src="./image/audioplayer.png" alt=""><span>Audio Player</span></a>
+                <a href="./projets/audio_player/index.php" target="_blank"><img src="./image/audioplayer.png" alt=""><span>Audio Player</span></a>
             </div>
         </div>
 
