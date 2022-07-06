@@ -1,0 +1,87 @@
+/* * {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+} */
+html, body, .container {
+	font-family: "Poppins", sans-serif;
+    font-family: "Prompt", sans-serif;
+}
+
+.player{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+}
+
+#audio_player{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(22, 22, 22);
+    display: none;
+    position:fixed;
+    bottom: 0;
+}
+
+.text {
+	color: #ffffff;
+	display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+button {
+	background: #000000;
+	color: #ffffff;
+	background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+	background: -webkit-linear-gradient(bottom,#000000,#262626);
+	background: -moz-linear-gradient(bottom,#000000,#262626);
+	background: -o-linear-gradient(bottom,#000000,#262626);
+	background: linear-gradient(0deg,#000000,#262626);
+	font-size: 14px;
+	border: none;
+	outline: none;
+	padding: 0px 15px;
+	width: 55px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 32px;
+	   -moz-border-radius: 32px;
+	        border-radius: 32px;
+}
+
+
+#seek{
+		-webkit-appearance: none;
+		border: 1px solid #000000;
+		height: 5px;
+		width: 50vw;
+		vertical-align: middle;
+		-webkit-border-radius: 20px;
+		   -moz-border-radius: 20px;
+				border-radius: 20px;
+		background-color: #232323;
+		outline: none;
+}
+
+#volume{
+	-webkit-appearance: none;
+	border: 1px solid #000000;
+	height: 5px;
+	vertical-align: middle;
+	-webkit-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	        border-radius: 20px;
+	background-color: #232323;
+	outline: none;
+}
+
+input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid  #000000;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	background: #ffffff;
+}
