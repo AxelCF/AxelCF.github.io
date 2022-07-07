@@ -83,7 +83,7 @@
                 <div class="message">
                     <textarea id="message" rows="4" placeholder="Votre message"></textarea>
                 </div>
-                <button class="btnSend" type="submit">Send</button>
+                <button class="btnSend" type="submit">Envoyer</button>
             </form>
         </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
