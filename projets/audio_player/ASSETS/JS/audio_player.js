@@ -26,20 +26,20 @@ let i = 0;
 let saveVolume = 0.0;
 
 song.type = 'audio/mp3';
-arrayLinks = [];
+"https://www.bensound.com/bensound-music/bensound-summer.mp3" = [];
  
-song.src = arrayLinks[i];
+song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3";
 
 function changeMusicAuto(curtime, duration){
   if (curtime == Math.floor(duration) 
   || curtime == Math.ceil(duration)) {
     if(i > arrayLinks.length - 2){
       stop();
-      song.src = arrayLinks[i = 0];
+      song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i = 0];
       song.play();
     }else{
       stop()
-      song.src = arrayLinks[i += 1];
+      song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i += 1];
       playPause();
     }
   }
@@ -47,13 +47,13 @@ function changeMusicAuto(curtime, duration){
 }
 
 function changeMusicFwd(){
-        if (i > arrayLinks.length - 2){
+        if (i > "https://www.bensound.com/bensound-music/bensound-summer.mp3".length - 2){
         stop();
-        song.src = arrayLinks[i = 0];
+        song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i = 0];
         playPause();
       }else{
         stop();
-        song.src = arrayLinks[i += 1];
+        song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i += 1];
         playPause();
       }
 
@@ -63,12 +63,12 @@ function changeMusicBck(){
     if(song.currentTime <= 5){
       if (i < 1){
         stop();
-        song.src = arrayLinks[i = arrayLinks.length -1];
+        song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i = "https://www.bensound.com/bensound-music/bensound-summer.mp3".length -1];
         playPause();
       }
       else{
         stop();
-        song.src = arrayLinks[i -= 1];
+        song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i -= 1];
         playPause();
       }
     }else{
@@ -81,7 +81,7 @@ function playPause() {
 		song.pause();
     document.getElementById('playpause').innerHTML = '<i class="fa fa-play"></i>';
 	} else {
-    song.src = arrayLinks[i];
+    song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[i];
     song.play();
     document.getElementById('playpause').innerHTML = '<i class="fa fa-pause"></i>';
 	}
@@ -89,7 +89,7 @@ function playPause() {
 function stop() {
 	playPause();
 	song.currentTime = 0;
-  song.src = arrayLinks[0];
+  song.src = "https://www.bensound.com/bensound-music/bensound-summer.mp3"[0];
 	document.getElementById('seek').value = 0;
 }
 function setPos(pos) {

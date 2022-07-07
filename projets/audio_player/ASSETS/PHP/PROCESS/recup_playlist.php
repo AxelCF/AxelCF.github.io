@@ -8,4 +8,3 @@ include '../../UTILS/connect_db.php';
                 echo $obj;
             
             $reponse->closeCursor();
-?>
