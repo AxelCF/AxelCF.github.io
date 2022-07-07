@@ -24,6 +24,7 @@
                 </div>
                 <ul>
                     <li><a href="https://fr.linkedin.com/in/axel-maurice-698a381a1?trk=people-guest_people_search-card" target="_blank"><img src="/image/linkedin.png" alt=""></a></li>
+                    <li><a href="https://codepen.io/axel-maurice" target="_black"><img src="/image/codepen.png" alt=""></a></li>
                     <li><a href="https://github.com/AxelCF" target="_black"><img src="/image/github.png" alt=""></a></li>
                 </ul>
             </div>
@@ -43,7 +44,7 @@
                     J'ai un BEP et un BAC pro Technicien d'usinage.<br />
                     En dehors de tout ça, je suis passionné par le volly-ball, la bande dessinée japonaise et les FPS</p>
                 <div class="btn">
-                    <a href="./image/cv.pdf">MON CV</a>
+                    <a href="./image/cv.pdf" target="_blank">MON CV</a>
                 </div>
             </div>
         </div>
