@@ -42,7 +42,7 @@
             <div class="texte">
                 <p>Je m'appel Axel, je suis actuellement en formation developpeur web au CIFOR de Roanne.<br />
                     J'ai un BEP et un BAC pro Technicien d'usinage.<br />
-                    En dehors de tout ça, je suis passionné par le volly-ball, la bande dessinée japonaise et les FPS</p>
+                    En dehors de tout ça, je suis passionné par le volley-ball, la bande dessinée japonaise et les FPS</p>
                 <div class="btn">
                     <a href="./image/cv.pdf" target="_blank">MON CV</a>
                 </div>
