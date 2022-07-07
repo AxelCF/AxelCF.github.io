@@ -43,7 +43,7 @@ function getSongsFromPlaylist(id) {
 
         text.forEach(song => {
             console.log(song.link);
-            songLinks.push('/audio_player/ASSETS/MUSIC/' + song.link);
+            songLinks.push('../audio_player/ASSETS/MUSIC/' + song.link);
 
         });
         arrayLinks = songLinks;
