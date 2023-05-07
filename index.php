@@ -23,9 +23,12 @@
                     <a href="#contact" style="scroll-behavior: smooth;">CONTACT</a>
                 </div>
                 <ul>
-                    <li><a href="https://fr.linkedin.com/in/axel-maurice-698a381a1?trk=people-guest_people_search-card" target="_blank"><img src="/image/linkedin.png" alt=""></a></li>
-                    <li><a href="https://codepen.io/axel-maurice" target="_black"><img src="/image/codepen.png" alt=""></a></li>
-                    <li><a href="https://github.com/AxelCF" target="_black"><img src="/image/github.png" alt=""></a></li>
+                    <li><a href="https://fr.linkedin.com/in/axel-maurice-698a381a1?trk=people-guest_people_search-card"
+                            target="_blank"><img src="/image/linkedin.png" alt=""></a></li>
+                    <li><a href="https://codepen.io/axel-maurice" target="_black"><img src="/image/codepen.png"
+                                alt=""></a></li>
+                    <li><a href="https://github.com/AxelCF" target="_black"><img src="/image/github.png" alt=""></a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -42,7 +45,8 @@
             <div class="texte">
                 <p>Je m'appel Axel, je suis actuellement en formation developpeur web au CIFOR de Roanne.<br />
                     J'ai un BEP et un BAC pro Technicien d'usinage.<br />
-                    En dehors de tout ça, je suis passionné par le volley-ball, la bande dessinée japonaise et les FPS</p>
+                    En dehors de tout ça, je suis passionné par le volley-ball, la bande dessinée japonaise et les FPS
+                </p>
                 <div class="btn">
                     <a href="./image/cv.pdf" target="_blank">MON CV</a>
                 </div>
@@ -56,11 +60,13 @@
         </div>
         <div class="cardcontainer">
             <div class="card">
-                <a href="./projets/drum_pad/index.html" target="_blank"><img src="./image/drumpad.png" alt=""><span>Drum Pad</span></a>
+                <a href="./projets/drum_pad/index.html" target="_blank"><img src="./image/drumpad.png" alt=""><span>Drum
+                        Pad</span></a>
             </div>
 
             <div class="card">
-                <a href="./projets/audio_player/index.php" target="_blank"><img src="./image/audioplayer.png" alt=""><span>Audio Player</span></a>
+                <a href="./projets/audio_player/index.php" target="_blank"><img src="./image/audioplayer.png"
+                        alt=""><span>Audio Player</span></a>
             </div>
         </div>
 
@@ -90,7 +96,8 @@
         <script>
             function crypt() {
                 const string = "elaxmaurice9719gmail.com";
-                const result = string.substring(2, 4) + string.substring(0, 2) + "." + string.substring(4, 11) + "." + string.substring(13, 15) + string.substring(11, 13) + "@" + string.substring(15);
+                const result = string.substring(2, 4) + string.substring(0, 2) + "." + string.substring(4, 11) + "." +
+                    string.substring(13, 15) + string.substring(11, 13) + "@" + string.substring(15);
                 return result;
             }
 
@@ -99,12 +106,12 @@
                     SecureToken: "d3c0db2c-3cf9-4178-9caf-7c7345207d88",
                     To: crypt(),
                     From: crypt(),
-                    Subject: "This is the subject",
+                    Subject: "From the portfolio",
                     Body: "Name: " + document.getElementById("name").value +
                         "<br> Email: " + document.getElementById("email").value +
                         "<br> Message: " + document.getElementById("message").value
                 }).then(
-                    message => alert("Message Sent Succesfully")
+                    message => alert("Votre message a bien été envoyé")
                 );
             }
         </script>
