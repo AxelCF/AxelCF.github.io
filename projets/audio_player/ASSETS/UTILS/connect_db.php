@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $db = new PDO('mysql:host=141.94.22.233;dbname=AxelCF_audio_player;charset=utf8', 'AxelCF', 'Ichigo.14', [
+    $db = new PDO('mysql:host=localhost;dbname=audio_player;charset=utf8', 'root', '', [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ]);
 } catch (Exception $e) {
