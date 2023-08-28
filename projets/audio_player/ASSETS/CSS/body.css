@@ -1,73 +1,70 @@
 body {
-    background-color: rgb(17, 14, 14);
-    font-family: "Poppins", sans-serif;
-    font-family: "Prompt", sans-serif;
-  }
-  
-  h2 {
-    margin-left: 100px;
-    color: white;
-  }
-  
-  p {
-    color: white;
-  }
-  
-  /* -------------------container 1------------------- */
-  .playlists {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .case img{
-    height: 200px;
-    width: 200px;
-  }
-img{
+  background-color: rgb(17, 14, 14);
+  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+
+h2 {
+  margin-left: 100px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/* -------------------container 1------------------- */
+.playlists {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.case img {
+  height: 200px;
+  width: 200px;
+}
+img {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
 }
-  
+
 img:after {
   content: "";
-  background: #90EE90;
+  background: #90ee90;
   display: block;
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -20px!important;
+  margin-left: -20px !important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
 img:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
-  
-  .text {
-    text-align: justify;
-    height: 200px;
-    width: 200px;
-  }
-  
-  /* -------------------container 2------------------- */
-  
-  .container2 {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
 
+.text {
+  text-align: justify;
+  height: 200px;
+  width: 200px;
+}
+
+/* -------------------container 2------------------- */
+
+.container2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
